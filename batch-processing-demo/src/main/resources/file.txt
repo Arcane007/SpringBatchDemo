@@ -1,0 +1,12 @@
+select * from batch_job_execution;
+
+select * from batch_step_execution;
+
+select * from batch_job_instance;
+
+select  * from customers_info;
+
+--- 422 -> M
+--- 481 -> F
+
+delete from customers_info;
